@@ -14,7 +14,8 @@ slider({
 })
 
 Example: 
-`<div class="offer__slider">
+```
+<div class="offer__slider">
     <div class="offer__slider-counter">
         <div class="offer__slider-prev">
             <img src="icons/left.svg" alt="prev">
@@ -42,10 +43,11 @@ Example:
             </div>
         </div>
     </div>
-</div>`
-
+</div>
+```
 At arguments: 
-`slider({
+```
+slider({
         slide: '.offer__slide',
         nextArrow: '.offer__slider-next',
         prevArrow: '.offer__slider-prev',
@@ -53,4 +55,5 @@ At arguments:
         currentCounter: '#current',
         wrapper: '.offer__slider-wrapper',
         field: '.offer__slider-inner'
-    });`
+    });
+```
