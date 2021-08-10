@@ -2,19 +2,19 @@
 Native JS slider with pointer.
 
 This slider contain object as argument-list with 7 options.
-
-slider({
-    slide: main selector of slide,
-    nextArrow: button selector with arrow to next slide,
-    prevArrow: button selector with arrow to previous slide,
-    totalCounter: element selector that shows total count slides,
-    currentCounter: element selector that shows current count slide,
-    wrapper: contains our slides,
-    field: inner (located as child of wrapper)
-})
-
-Example: 
+***
 ```
+slide: main selector of slide,
+nextArrow: button selector with arrow to next slide,
+prevArrow: button selector with arrow to previous slide,
+totalCounter: element selector that shows total count slides,
+currentCounter: element selector that shows current count slide,
+wrapper: contains our slides,
+field: inner (located as child of wrapper)
+```
+***
+Example: 
+```html
 <div class="offer__slider">
     <div class="offer__slider-counter">
         <div class="offer__slider-prev">
@@ -46,7 +46,7 @@ Example:
 </div>
 ```
 At arguments: 
-```
+```javascript
 slider({
         slide: '.offer__slide',
         nextArrow: '.offer__slider-next',
